@@ -1,0 +1,45 @@
+stages:
+  data_ingestion:
+    cmd: python src/A_data_injestion.py
+    deps:
+    # - data/src
+    - src/A_data_injestion.py
+    # params:
+    # - data_ingestion.test_size
+    outs:
+    - data/raw
+  data_preprocessing:
+    cmd: python src/B_preperation.py
+    deps:
+    - data/raw
+    - src/B_preperation.py
+    outs:
+    - data/interim
+  feature_selection:
+    cmd: python src/C_feature_selection.py
+    deps:
+    - data/interim
+    - src/C_feature_selection.py
+    outs:
+    - data/processed
+  model_building:
+    cmd: python src/D_model_training.py
+    deps:
+    - data/processed
+    - src/D_model_training.py
+    outs:
+    - models/model.pkl
+  model_evaluation:
+    cmd: python src/E_model_evaluation.py
+    deps:
+    - models/model.pkl
+    - src/E_model_evaluation.py
+    metrics:
+    - reports/metrics.json
+# params:
+# - dvclive/params.yaml
+# metrics:
+# - dvclive/metrics.json
+# plots:
+# - dvclive/plots/metrics:
+#     x: step

@@ -1,0 +1,18 @@
+
+Understand it in nutshell
+
+MLops_tionize this project:
+
+        use git 
+        make pipeline as we did in 4.ML pipeline
+        
+
+NON_AGENDA : 
+
+    As i will do following things on each upcoming 3 projects
+        don't use OOps here.
+        don't perform data_versioning using any tool
+        don't perform experiment tracking
+        don't use CI
+        and don't use 
+

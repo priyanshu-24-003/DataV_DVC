@@ -32,3 +32,6 @@
 2026-02-11 18:26:01,024 - data_ingestion - DEBUG - Data loaded from data/src/palmer_penguins.csv
 2026-02-11 18:26:01,040 - data_ingestion - DEBUG - split the data into training and testing
 2026-02-11 18:26:01,067 - data_ingestion - DEBUG - Train and test data saved to ./data/raw
+2026-02-11 18:39:03,244 - data_ingestion - DEBUG - Data loaded from data/src/palmer_penguins.csv
+2026-02-11 18:39:03,254 - data_ingestion - DEBUG - split the data into training and testing
+2026-02-11 18:39:03,267 - data_ingestion - DEBUG - Train and test data saved to ./data/raw

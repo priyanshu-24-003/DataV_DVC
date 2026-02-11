@@ -33,3 +33,6 @@
 2026-02-11 18:30:56,927 - D_Model_training - DEBUG - Data loaded from ./data/processed/train_final.csv with shape (266, 4)
 2026-02-11 18:31:02,372 - D_Model_training - DEBUG - model has been trained with score on training data :0.9887218045112782 
 2026-02-11 18:31:02,375 - D_Model_training - DEBUG - Model saved to models/model.pkl
+2026-02-11 18:39:52,515 - D_Model_training - DEBUG - Data loaded from ./data/processed/train_final.csv with shape (233, 4)
+2026-02-11 18:39:59,015 - D_Model_training - DEBUG - model has been trained with score on training data :1.0 
+2026-02-11 18:39:59,017 - D_Model_training - DEBUG - Model saved to models/model.pkl

@@ -12,4 +12,6 @@ Concepts practiced in this Project:
 
         ran Entire pipeline using DVC commands
 
-        
+        Pused versioned data to dagshub s3//:
+                on dagshub:
+                        search repo : DataV_DVC

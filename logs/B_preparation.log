@@ -16,3 +16,7 @@
 2026-02-11 18:39:11,546 - B_preparation - DEBUG - successfully encoded the catagorical features of train data
 2026-02-11 18:39:11,584 - B_preparation - DEBUG - successfully encoded the catagorical features of test data
 2026-02-11 18:39:11,597 - B_preparation - DEBUG - Processed data saved to ./data\interim
+2026-02-12 18:30:26,801 - B_preparation - DEBUG - Data loaded properly
+2026-02-12 18:30:26,806 - B_preparation - DEBUG - successfully encoded the catagorical features of train data
+2026-02-12 18:30:26,810 - B_preparation - DEBUG - successfully encoded the catagorical features of test data
+2026-02-12 18:30:26,835 - B_preparation - DEBUG - Processed data saved to ./data\interim

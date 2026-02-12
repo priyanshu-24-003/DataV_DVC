@@ -20,3 +20,9 @@
 2026-02-11 18:39:43,982 - C_Feature_selection - DEBUG - Best Feature selected which produces CV score: 0.9913968547641072
 2026-02-11 18:39:43,990 - C_Feature_selection - DEBUG - Data saved to ./data\processed\train_final.csv
 2026-02-11 18:39:43,995 - C_Feature_selection - DEBUG - Data saved to ./data\processed\test_final.csv
+2026-02-12 18:30:34,534 - C_Feature_selection - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-02-12 18:30:34,538 - C_Feature_selection - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-02-12 18:30:34,539 - C_Feature_selection - DEBUG - feature selection started 
+2026-02-12 18:30:54,540 - C_Feature_selection - DEBUG - Best Feature selected which produces CV score: 0.99
+2026-02-12 18:30:54,547 - C_Feature_selection - DEBUG - Data saved to ./data\processed\train_final.csv
+2026-02-12 18:30:54,552 - C_Feature_selection - DEBUG - Data saved to ./data\processed\test_final.csv
